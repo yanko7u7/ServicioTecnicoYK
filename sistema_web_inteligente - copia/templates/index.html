@@ -1,0 +1,429 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="theme-color" content="#100b18">
+    <meta name="description"
+          content="Portafolio personal de Yanko Nacif: perfil, habilidades y tecnología.">
+
+    <title>Yanko Nacif | Portafolio</title>
+
+    <link rel="stylesheet"
+          href="{{ url_for('static', filename='style.css') }}">
+
+    <script src="{{ url_for('static', filename='main.js') }}" defer></script>
+</head>
+
+<body>
+    <div class="ambient ambient-one"></div>
+    <div class="ambient ambient-two"></div>
+
+    <nav class="navbar">
+        <a class="brand" href="/" aria-label="Inicio">
+            YN<span>.</span>
+        </a>
+
+        <div class="nav-links">
+            <a href="#inicio">Inicio</a>
+            <a href="#habilidades">Habilidades</a>
+            <a href="#filosofia">Filosofía</a>
+            <a href="#asistente">Yanko AI</a>
+            <a href="/contacto.html" class="nav-contact">Contacto ↗</a>
+        </div>
+    </nav>
+
+    <main>
+        <section class="hero section-wrap" id="inicio">
+            <div class="hero-copy reveal">
+                <div class="eyebrow">
+                    <span class="status-dot"></span>
+                    PORTAFOLIO PERSONAL
+                </div>
+
+                <p class="hero-kicker">TECNOLOGÍA · CREATIVIDAD · EVOLUCIÓN</p>
+
+                <h1>
+                    Yanko Nacif
+                    <span class="gradient-text">Chavarria Nacif.</span>
+                </h1>
+
+                <p class="hero-description">
+                    Egresado del bachillerato, interesado en la tecnología,
+                    el desarrollo y el aprendizaje continuo. Construyendo
+                    habilidades para convertir ideas en soluciones.
+                </p>
+
+                <div class="hero-actions">
+                    <a href="#habilidades" class="button-primary">
+                        Explorar perfil <span>↘</span>
+                    </a>
+
+                    <a href="/contacto.html" class="button-secondary">
+                        Hablemos
+                    </a>
+                </div>
+
+                <div class="hero-note">
+                    <span class="note-line"></span>
+                    Aprender. Crear. Mejorar.
+                </div>
+            </div>
+
+            <div class="hero-art reveal" aria-label="Monograma YN">
+                <div class="orbit orbit-outer"></div>
+                <div class="orbit orbit-inner"></div>
+
+                <div class="monogram-card">
+                    <span class="monogram-label">IDENTIDAD DIGITAL</span>
+                    <div class="monogram">Y<span>N</span></div>
+                    <div class="monogram-divider"></div>
+                    <p>Ideas en evolución.</p>
+                    <span class="monogram-index">PORTFOLIO / 2026</span>
+                </div>
+
+                <div class="floating-tag tag-top">{" creatividad "}</div>
+                <div class="floating-tag tag-bottom">{" código + ideas "}</div>
+                <div class="art-spark spark-one">✳</div>
+                <div class="art-spark spark-two">✦</div>
+            </div>
+        </section>
+
+        <section class="ticker" aria-label="Tecnologías">
+            <div class="ticker-track">
+                <span>C++</span><i>✦</i>
+                <span>C#</span><i>✦</i>
+                <span>JAVASCRIPT</span><i>✦</i>
+                <span>HTML & CSS</span><i>✦</i>
+                <span>PYTHON</span><i>✦</i>
+                <span>BOOTSTRAP</span><i>✦</i>
+                <span>C++</span><i>✦</i>
+                <span>C#</span><i>✦</i>
+                <span>JAVASCRIPT</span><i>✦</i>
+                <span>HTML & CSS</span><i>✦</i>
+                <span>PYTHON</span><i>✦</i>
+                <span>BOOTSTRAP</span><i>✦</i>
+            </div>
+        </section>
+
+        <section class="section-wrap content-section" id="habilidades">
+            <div class="section-heading reveal">
+                <div>
+                    <p class="eyebrow">01 / CAJA DE HERRAMIENTAS</p>
+                    <h2>Mi zona de <span class="gradient-text">desarrollo.</span></h2>
+                </div>
+                <p class="section-intro">
+                    Tecnologías que forman parte de mi aprendizaje y
+                    desarrollo técnico.
+                </p>
+            </div>
+
+            <div class="skills-grid">
+                <article class="skill-card reveal">
+                    <span class="skill-number">01</span>
+                    <div class="skill-symbol">C++</div>
+                    <h3>C++</h3>
+                    <p>Lógica de programación y fundamentos de desarrollo.</p>
+                    <span class="skill-line"></span>
+                </article>
+
+                <article class="skill-card reveal">
+                    <span class="skill-number">02</span>
+                    <div class="skill-symbol">C#</div>
+                    <h3>C#</h3>
+                    <p>Exploración de programación y herramientas del ecosistema .NET.</p>
+                    <span class="skill-line"></span>
+                </article>
+
+                <article class="skill-card reveal">
+                    <span class="skill-number">03</span>
+                    <div class="skill-symbol">JS</div>
+                    <h3>JavaScript</h3>
+                    <p>Interactividad y comportamiento en páginas web.</p>
+                    <span class="skill-line"></span>
+                </article>
+
+                <article class="skill-card reveal">
+                    <span class="skill-number">04</span>
+                    <div class="skill-symbol">{"</>"}</div>
+                    <h3>HTML & CSS</h3>
+                    <p>Estructura, estilos y diseño de interfaces web.</p>
+                    <span class="skill-line"></span>
+                </article>
+
+                <article class="skill-card reveal">
+                    <span class="skill-number">05</span>
+                    <div class="skill-symbol">Py</div>
+                    <h3>Python</h3>
+                    <p>Programación y desarrollo de aplicaciones con Flask.</p>
+                    <span class="skill-line"></span>
+                </article>
+
+                <article class="skill-card reveal">
+                    <span class="skill-number">06</span>
+                    <div class="skill-symbol">B</div>
+                    <h3>Bootstrap</h3>
+                    <p>Componentes y recursos para interfaces adaptables.</p>
+                    <span class="skill-line"></span>
+                </article>
+            </div>
+        </section>
+
+        <section class="philosophy-section" id="filosofia">
+            <div class="section-wrap philosophy-layout">
+                <div class="philosophy-title reveal">
+                    <p class="eyebrow">02 / MI FILOSOFÍA</p>
+                    <h2>No se trata solo de hacer.<br>
+                        Se trata de <span class="gradient-text">mejorar.</span>
+                    </h2>
+                </div>
+
+                <div class="principles">
+                    <article class="principle reveal">
+                        <span>✦</span>
+                        <div>
+                            <h3>Calidad en cada detalle</h3>
+                            <p>Atención a los detalles y compromiso con el resultado.</p>
+                        </div>
+                        <b>01</b>
+                    </article>
+
+                    <article class="principle reveal">
+                        <span>↗</span>
+                        <div>
+                            <h3>Agilidad con propósito</h3>
+                            <p>Organizar el trabajo para avanzar sin perder de vista los objetivos.</p>
+                        </div>
+                        <b>02</b>
+                    </article>
+
+                    <article class="principle reveal">
+                        <span>∞</span>
+                        <div>
+                            <h3>Aprendizaje continuo</h3>
+                            <p>Seguir explorando, practicando y desarrollando nuevas habilidades.</p>
+                        </div>
+                        <b>03</b>
+                    </article>
+
+                    <article class="principle reveal">
+                        <span>◇</span>
+                        <div>
+                            <h3>Respeto y trato justo</h3>
+                            <p>Valorar las ideas, el esfuerzo y la colaboración.</p>
+                        </div>
+                        <b>04</b>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section class="section-wrap assistant-section" id="asistente">
+            <div class="assistant-heading reveal">
+                <p class="eyebrow">03 / ASISTENTE INTERACTIVO</p>
+                <h2>Conoce más con <span class="gradient-text">Yanko AI.</span></h2>
+                <p>Pregunta sobre mi perfil, mis habilidades o este portafolio.</p>
+            </div>
+
+            <div class="chat-window reveal">
+                <div class="chat-topbar">
+                    <div class="chat-brand">
+                        <div class="chat-avatar">YN</div>
+                        <div>
+                            <strong>Yanko AI</strong>
+                            <span class="connection-status">
+                             <i id="api-status-dot" class="status-dot status-checking"></i>
+                                 <span id="api-status-text">Comprobando conexión...</span>
+                            </span>
+                        </div>
+                    </div>
+                    <span class="chat-badge">AI / CHAT</span>
+                </div>
+
+                <div id="chat-messages" class="chat-messages"
+                     aria-live="polite" aria-label="Conversación">
+                    <div class="message ai-message">
+                        ¡Hola! Soy Yanko AI. Puedes preguntarme sobre las
+                        tecnologías del perfil o los principios de Yanko.
+                    </div>
+                </div>
+
+                <div class="suggestions">
+                    <button type="button" class="suggestion"
+                            data-question="¿Qué tecnologías aparecen en el portafolio?">
+                        Tecnologías
+                    </button>
+                    <button type="button" class="suggestion"
+                            data-question="¿Cuáles son los principios de Yanko?">
+                        Principios
+                    </button>
+                    <button type="button" class="suggestion"
+                            data-question="¿Qué es este proyecto web?">
+                        Este proyecto
+                    </button>
+                </div>
+
+                <form id="chat-form" class="chat-form">
+                    <label class="visually-hidden" for="chat-input">
+                        Escribe tu pregunta
+                    </label>
+                    <input id="chat-input" name="mensaje" type="text"
+                           placeholder="Escribe tu pregunta..."
+                           maxlength="2000" autocomplete="off" required>
+                    <button id="chat-send" type="submit" aria-label="Enviar mensaje">
+                        Enviar <span>↗</span>
+                    </button>
+                </form>
+
+                <p class="chat-disclaimer">
+                    Las respuestas se generan mediante la API configurada en el servidor.
+                </p>
+            </div>
+        </section>
+
+        <section class="closing section-wrap reveal">
+            <p class="eyebrow">EL SIGUIENTE PASO EMPIEZA AQUÍ</p>
+            <h2>Las ideas crecen cuando <span class="gradient-text">se construyen.</span></h2>
+            <a href="/contacto.html" class="button-primary">
+                Ir a contacto <span>↗</span>
+            </a>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <a class="brand" href="/">YN<span>.</span></a>
+        <p>© 2026 Yanko Nacif · Portafolio personal</p>
+        <a href="#inicio">Volver arriba ↑</a>
+    </footer>
+
+    <!-- Aviso de cookies -->
+    <div id="cookie-banner" class="cookie-banner" role="dialog"
+         aria-labelledby="cookie-title" hidden>
+        <div class="cookie-icon" aria-hidden="true">✦</div>
+        <div class="cookie-content">
+            <h2 id="cookie-title">Tu privacidad importa</h2>
+            <p>
+                Este sitio puede utilizar almacenamiento local para recordar
+                tus preferencias. Puedes elegir cómo continuar.
+            </p>
+        </div>
+        <div class="cookie-actions">
+            <button id="cookie-accept" class="cookie-btn accept" type="button">
+                Aceptar
+            </button>
+            <button id="cookie-reject" class="cookie-btn reject" type="button">
+                Rechazar opcionales
+            </button>
+        </div>
+    </div>
+
+    <script>
+    // Animaciones de entrada
+    document.documentElement.classList.add("js-enabled");
+
+    const revealObserver = new IntersectionObserver((entries) => {
+        entries.forEach((entry) => {
+            if (entry.isIntersecting) {
+                entry.target.classList.add("is-visible");
+                revealObserver.unobserve(entry.target);
+            }
+        });
+    }, { threshold: 0.12 });
+
+    document.querySelectorAll(".reveal").forEach((element) => {
+        revealObserver.observe(element);
+    });
+
+    // Chat conectado con la ruta Flask /api/chat
+    const chatForm = document.getElementById("chat-form");
+    const chatInput = document.getElementById("chat-input");
+    const chatMessages = document.getElementById("chat-messages");
+    const chatSend = document.getElementById("chat-send");
+
+    function addMessage(text, type) {
+        const message = document.createElement("div");
+        message.className = "message " + type;
+        message.textContent = text;
+        chatMessages.appendChild(message);
+        chatMessages.scrollTop = chatMessages.scrollHeight;
+        return message;
+    }
+
+    async function sendQuestion(question) {
+        const cleanQuestion = question.trim();
+        if (!cleanQuestion || chatSend.disabled) return;
+
+        addMessage(cleanQuestion, "user-message");
+        chatInput.value = "";
+        chatSend.disabled = true;
+        chatInput.disabled = true;
+
+        const loading = addMessage("Pensando...", "ai-message loading-message");
+
+        try {
+            const response = await fetch("/api/chat", {
+                method: "POST",
+                headers: { "Content-Type": "application/json" },
+                body: JSON.stringify({ mensaje: cleanQuestion })
+            });
+
+            const data = await response.json();
+            loading.remove();
+
+            if (!response.ok) {
+                addMessage(data.error || "No se pudo obtener una respuesta.", "ai-message");
+            } else {
+                addMessage(data.respuesta || "La IA no devolvió texto.", "ai-message");
+            }
+        } catch (error) {
+            loading.remove();
+            addMessage("No pude conectar con el servidor. Comprueba que Flask siga activo.", "ai-message");
+        } finally {
+            chatSend.disabled = false;
+            chatInput.disabled = false;
+            chatInput.focus();
+        }
+    }
+
+    chatForm.addEventListener("submit", (event) => {
+        event.preventDefault();
+        sendQuestion(chatInput.value);
+    });
+
+    document.querySelectorAll(".suggestion").forEach((button) => {
+        button.addEventListener("click", () => {
+            sendQuestion(button.dataset.question || "");
+        });
+    });
+    
+async function checkApiStatus() {
+    const dot = document.getElementById("api-status-dot");
+    const text = document.getElementById("api-status-text");
+
+    try {
+        const response = await fetch("/api/status", {
+            cache: "no-store"
+        });
+
+        const data = await response.json();
+
+        if (response.ok && data.en_linea) {
+            dot.className = "status-dot status-online";
+            text.textContent = "API configurada";
+        } else {
+            dot.className = "status-dot status-offline";
+            text.textContent = data.estado || "Sin conexión";
+        }
+    } catch (error) {
+        dot.className = "status-dot status-offline";
+        text.textContent = "Servidor sin conexión";
+    }
+}
+
+checkApiStatus();
+
+    </script>
+</body>
+</html>
